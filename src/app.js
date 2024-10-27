@@ -8,9 +8,9 @@ window.onload = function() {
   let pronoun = ["the", "our", "my", "his", "their"];
   let adj = ["great", "big", "small", "beautiful", "wonderful"];
   let noun = ["jogger", "racoon", "teacher", "series", "glasses"];
-  let domains = []; // Almacenar todos los dominios generados
+  let domains = []; // Aqui se almacenan todos los dominios generados.
 
-  // Generar la lista de dominios
+  // Esto es para generar la lista de dominios.
   for (let index = 0; index < pronoun.length; index++) {
     const element = pronoun[index];
     for (let index2 = 0; index2 < adj.length; index2++) {
@@ -23,7 +23,7 @@ window.onload = function() {
         } else {
           domainName = element + element2 + element3 + ".com";
         }
-        domains.push(domainName); // Almacena cada dominio en el array
+        domains.push(domainName); //
       }
     }
   }
